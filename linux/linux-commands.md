@@ -1,4 +1,4 @@
-File and Directory Commands (basic:)
+1.File and Directory Commands (basic:)
 
 pwd – /home/mayank/projects //Show current directory path
 
@@ -17,3 +17,23 @@ cp – //Copy files/directories
 mv – //Move or rename files
 
 rm – //Delete files or directories 
+
+
+2.File Permission Commands
+
+chmod – Change file permissions
+
+chown – Change file owner
+
+
+3.File Viewing Commands
+
+cat – Display file contents
+
+less – View file page by page
+
+more – View file page by page (older command)
+
+head – Show first lines of a file
+
+tail – Show last lines of a file
