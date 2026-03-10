@@ -1,6 +1,7 @@
 docker basics 
 
-What is Docker ?
+What is Docker ?<br>
+
 Docker is an open-source platform that enables developers to build, package, ship, and run applications using containers—lightweight, portable, and self-contained environments that include everything needed to run an application, such as code, libraries, runtime, and system tools.
 
 *Docker Architecture* is a client-server model that enables efficient containerization of applications.  At its core, it consists of several interconnected components that work together to build, run, and manage containers. 
