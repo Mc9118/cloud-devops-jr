@@ -1,5 +1,5 @@
 
-<strond>AWS IAM (Identity and Access Management)</strong>
+<strongAWS IAM (Identity and Access Management)</strong>
 
 What is IAM
 
