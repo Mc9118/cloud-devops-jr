@@ -8,6 +8,18 @@ AWS IAM (Identity and Access Management) is a service that helps you securely co
 Using IAM, administrators can decide who can access AWS resources and what actions they can perform.
 <<<<<<< HEAD
 
+<strong> What IAM Actually Does </strong>
+
+IAM helps you manage access to AWS resources securely.
+
+It answers three main questions:
+
+Who can access AWS?
+
+What resources can they access?
+
+What actions can they perform?
+
 
 <strong>Key Components of IAM</strong>
 
@@ -39,7 +51,7 @@ An IAM group is a collection of IAM users. (assining user into a group )
 It helps manage permissions easily. If you assign permission to the group, all users inside the group get the same permission.
 
 
-4. IAM Policies
+3. IAM Policies
 
 Policies are JSON documents that define permissions.
 
@@ -47,19 +59,5 @@ They specify:
 
 What actions are allowed
 
-Which resources can be accessed
+Which resources can be accessed. Even aws does not charge for iam service.
 
-Example policy:-
-
-{
- "Version": "2012-10-17",
- "Statement": [
-  {
-   "Effect": "Allow",
-   "Action": "s3:ListBucket",
-   "Resource": "*"
-  }
- ]
-}
-=======
->>>>>>> 7afd7ce2defd4d6347e75910d038aee8ecd6797f
