@@ -94,3 +94,50 @@ Why Companies Use CloudWatch:-
 ✔ Reduce downtime
 ✔ Automate alerts
 ✔ Analyze system performance
+
+
+when a metrics cross over a particular monitoring time period SNS is  use to send notification 
+
+What is SNS?
+
+Amazon Simple Notification Service
+
+SNS is a messaging/notification service used to send alerts or messages to many systems or people.
+
+<striong> SNS Architecture </strong>
+
+Components:
+
+1️⃣ Publisher
+
+Service that sends message.
+
+Example-
+
+CloudWatch
+
+EC2
+
+Application
+
+2️⃣ Topic
+
+A communication channel.
+
+Example topic name:-
+
+server-alerts
+
+3️⃣ Subscribers
+
+People or systems receiving messages.
+
+Examples:-
+
+Email
+
+SMS
+
+Lambda
+
+SQS
