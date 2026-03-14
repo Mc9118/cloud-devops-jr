@@ -39,6 +39,7 @@ Network traffic
 Example metric:
 
 CPU Utilization = 75%
+
 2. Logs
 
 CloudWatch can store application and system logs.
@@ -95,6 +96,9 @@ Why Companies Use CloudWatch:-
 ✔ Automate alerts
 ✔ Analyze system performance
 
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/0169028d-5c23-43d3-b2cf-952090d88cf7" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/90fd0689-b650-4852-bcd3-ef36af6195ad" />
 
 when a metrics cross over a particular monitoring time period SNS is  use to send notification 
 
