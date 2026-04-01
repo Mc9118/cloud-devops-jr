@@ -1,7 +1,6 @@
 # Docker Notes 🐳
 
-This repository contains my personal notes and practice commands for learning **Docker**.
-It includes basic to intermediate Docker concepts, commands, and examples.
+This repository contains my personal notes and practice commands for learning **Docker**.It includes basic to intermediate Docker concepts, commands, and examples.
 
 ## Topics Covered
 
