@@ -1,4 +1,4 @@
-1. File and Directory Commands (basic:)
+1. File and Directory Commands :basic
 
 pwd – /home/mayank/projects //Show current directory path
 
