@@ -51,7 +51,7 @@ ps – Show running processes
 
 top – Show system processes live
 
-kill – Stop a process 
+kill – Stop a process.
 
 
 6. Utility Commands
