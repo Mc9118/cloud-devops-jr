@@ -1,1 +1,31 @@
 
+Kubernetes (K8s) is an open-source platform used to manage, deploy, and scale containerized applications automatically.
+
+*Why Kubernetes is Used?
+✅ Automatically deploy applications
+✅ Scale apps when traffic increases
+✅ Restart failed containers (self-healing)
+✅ Load balancing between users
+✅ Manage multiple containers easily.
+
+→ Basic Concepts of Kubernetes
+1. 🟢 Cluster
+A group of machines (nodes)
+One Master Node + multiple Worker Nodes
+
+2. 📦 Pod
+Smallest unit in Kubernetes
+Contains 1 or more containers
+👉 Example: A web app container
+
+3. 🚀 Deployment
+Manages pods
+Ensures correct number of pods are running
+
+4. 🌐 Service
+Exposes your app to users
+Acts like a network endpoint
+
+5. ⚙️ Node
+A machine (VM or physical)
+Runs pods
