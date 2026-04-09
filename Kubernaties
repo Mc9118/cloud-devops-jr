@@ -29,3 +29,11 @@ Acts like a network endpoint
 5. ⚙️ Node
 A machine (VM or physical)
 Runs pods
+
+
+How Kubernetes Works (Simple Flow)
+You create a deployment (app)
+Kubernetes creates pods
+Pods run on nodes
+Service exposes the app
+Kubernetes keeps monitoring & fixing issues.
