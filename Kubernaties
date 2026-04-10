@@ -68,3 +68,6 @@ STEP 5: Scaling app -kubectl scale deployment my-nginx --replicas=3
 Check:-kubectl get pods
 
 we'll see 3 pods → SAME app running 3 times(even if deleting that pod this is called self healing).
+
+STEP 7: Update App:-
+kubectl set image deployment my-nginx nginx=nginx:latest
