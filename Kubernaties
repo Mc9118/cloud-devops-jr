@@ -37,3 +37,28 @@ Kubernetes creates pods
 Pods run on nodes
 Service exposes the app
 Kubernetes keeps monitoring & fixing issues.
+
+suppose we have created a app called  my-nginx:- 
+
+Step 1: Run Kubernetes Locally
+
+Use: minikube
+
+Commands:-
+minikube start
+kubectl get nodes
+
+* If node shows = Kubernetes is running 
+
+STEP 2: Deploy Your First App:-
+
+kubectl create deployment my-nginx --image=nginx
+
+Check:-kubectl get pods
+
+ STEP 4: Expose THE  App:
+kubectl expose deployment my-nginx --type=NodePort --port=80
+
+Then:-minikube service my-nginx
+
+  app is LIVE now  
