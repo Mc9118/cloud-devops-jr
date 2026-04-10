@@ -61,4 +61,10 @@ kubectl expose deployment my-nginx --type=NodePort --port=80
 
 Then:-minikube service my-nginx
 
-  app is LIVE now. 
+app is LIVE now.
+
+STEP 5: Scaling app -kubectl scale deployment my-nginx --replicas=3
+
+Check:-kubectl get pods
+
+we'll see 3 pods → SAME app running 3 times(even if deleting that pod this is called self healing).
