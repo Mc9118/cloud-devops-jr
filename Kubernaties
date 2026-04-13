@@ -1,0 +1,73 @@
+
+Kubernetes (K8s) is an open-source platform used to manage, deploy, and scale containerized applications automatically.
+
+*Why Kubernetes is Used?
+✅ Automatically deploy applications
+✅ Scale apps when traffic increases
+✅ Restart failed containers (self-healing)
+✅ Load balancing between users
+✅ Manage multiple containers easily.
+
+→ Basic Concepts of Kubernetes
+1. 🟢 Cluster
+A group of machines (nodes)
+One Master Node + multiple Worker Nodes
+
+2. 📦 Pod
+Smallest unit in Kubernetes
+Contains 1 or more containers
+👉 Example: A web app container
+
+3. 🚀 Deployment
+Manages pods
+Ensures correct number of pods are running
+
+4. 🌐 Service
+Exposes your app to users
+Acts like a network endpoint
+
+5. ⚙️ Node
+A machine (VM or physical)
+Runs pods
+
+
+How Kubernetes Works (Simple Flow)
+You create a deployment (app)
+Kubernetes creates pods
+Pods run on nodes
+Service exposes the app
+Kubernetes keeps monitoring & fixing issues.
+
+                                           suppose we have created a app called  my-nginx:- 
+
+Step 1: Run Kubernetes Locally
+
+Use: minikube
+
+Commands:-
+minikube start
+kubectl get nodes
+
+* If node shows = Kubernetes is running 
+
+STEP 2: Deploy Your First App:-
+
+kubectl create deployment my-nginx --image=nginx
+
+Check:-kubectl get pods
+
+ STEP 4: Expose THE  App:
+kubectl expose deployment my-nginx --type=NodePort --port=80
+
+Then:-minikube service my-nginx
+
+app is LIVE now.
+
+STEP 5: Scaling app -kubectl scale deployment my-nginx --replicas=3
+
+Check:-kubectl get pods
+
+we'll see 3 pods → SAME app running 3 times(even if deleting that pod this is called self healing).
+
+STEP 7: Update App:-
+kubectl set image deployment my-nginx nginx=nginx:latest

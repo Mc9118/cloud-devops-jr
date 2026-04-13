@@ -1,4 +1,4 @@
-1. File and Directory Commands (basic:)
+1. File and Directory Commands :basic
 
 pwd – /home/mayank/projects //Show current directory path
 
@@ -51,7 +51,7 @@ ps – Show running processes
 
 top – Show system processes live
 
-kill – Stop a process 
+kill – Stop a process.
 
 
 6. Utility Commands
