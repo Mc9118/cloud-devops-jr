@@ -6,3 +6,33 @@ Building your project.
 Deploying your app.
 
 It works whenever something happens in your repo (like a push or pull request).
+
+GITHUB ACTIONS: COMPONENTS
+
+*Workflows
+*Jobs
+*Events
+*Actions
+*Runners 
+
+
+1. Workflow
+A YAML file that defines automation
+Stored in:
+.github/workflows
+
+2. Event (Trigger)
+When the workflow runs:
+push
+pull_request
+schedule
+
+3. Job
+A set of steps running on a machine (runner)
+
+4. Step
+Individual commands inside a job
+
+5. Runner
+A server (like Ubuntu) where your code runs
+
